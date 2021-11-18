@@ -13,11 +13,9 @@ jobs:
     environment: production
 
     defaults:
-          run:
-            working-directory: $ ./task1
-
-    defaults:
+    
       run:
+        working-directory: $ ./task1
         shell: bash
 
     steps:
