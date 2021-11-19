@@ -16,8 +16,9 @@ crash.log
 **/.tfvars/*
 **/terraform.tfstate.*
 **/terraform.tfstate
-**/.terraform.tfstate.lock.info
-**/.terraform.lock.hcl
+**/.terraform.tfstate.lock.info*/
+**/.terraform.lock.hcl*/
+**/.terraform.tfvars*/
 
 # Ignore override files as they are usually used to override resources locally and so
 # are not checked in
