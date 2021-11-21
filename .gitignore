@@ -13,7 +13,8 @@ crash.log
 # version control.
 #
 # example.tfvars
-**/.tfvars/*
+*.tfvars
+*.tfvars.*
 **/terraform.tfstate.*
 **/terraform.tfstate
 **/.terraform.tfstate.lock.info*/

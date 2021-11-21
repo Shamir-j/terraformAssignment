@@ -19,7 +19,7 @@ variable "instance_type" {
 
 variable "security_group" {
   description = "Name of security group"
-  default     = "flugel-security-group1"
+  default     = "security_flugel_group"
 }
 
 variable "tag_name" {
@@ -39,7 +39,7 @@ variable "ami_id" {
 variable "bucket_prefix" {
   type        = string
   description = "(required since we are not using 'bucket') Creates a unique bucket name beginning with the specified prefix"
-  default     = "flugel-s3bucket3"
+  default     = "flugel-s3-bucket"
 }
 variable "tags" {
   type        = map(any)
