@@ -55,10 +55,10 @@ resource "aws_security_group" "security_flugel_group" {
 }
 
 resource "aws_instance" "flugelInstance" {
-  ami             = var.ami_id
-  key_name        = aws_key_pair.generated_key.key_name
-  instance_type   = var.instance_type
-  security_groups = [var.security_group]
+  ami                  = var.ami_id
+  key_name             = aws_key_pair.generated_key.key_name
+  instance_type        = var.instance_type
+  security_groups      = [var.security_group]
   iam_instance_profile = aws_iam_instance_profile.test_profile.name
   tags = {
     Name  = var.tag_name
