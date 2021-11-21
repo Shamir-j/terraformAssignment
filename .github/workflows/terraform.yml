@@ -15,7 +15,7 @@ jobs:
     defaults:
     
       run:
-        working-directory: ./task1
+        # working-directory: ./task1
         shell: bash
 
     steps:
